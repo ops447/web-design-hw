@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Homeworks - 책 소개하기</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style type="text/css">
+        body {
+            font-family: 'Noto Sans KR', sans-serif; /* 구글 폰트 적용 */
+            background: #f4f6f9; /* 배경색 지정 */
+            padding: 20px;
+        }
+
+        /* 3. Id 선택자 사용하기: only one! */
+        #special-title {
+            color: #2c3e50;
+            text-align: center;
+            background: white;
+            padding: 10px;
+        }
+
+        /* 4. 클래스 선택자 (Class Selector) 사용하기 */
+        .book-container {
+            background: white;
+            padding: 30px;
+            border: 1px solid #ddd;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .highlight-text {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="book-container">
+        <h1 id="special-title">내가 재밌게 보았던 소설책 소개</h1>
+        
+        <hr>
+
+        <div style="text-align: center;">
+            <img src="book_image.jpg" alt="책 표지 이미지" width="300" height="400">
+        </div>
+        
+        <h2>📚 책 기본 정보</h2>
+        <ul>
+            <li><strong>제목:</strong> 긴키지방의 어느 장소에 대하여</li>
+            <li><strong>작가명:</strong> 세스지</li>
+            <li><strong>출판사:</strong> KADOKAWA, 반타</li>
+        </ul>
+
+        <hr>
+
+        <h2>📖 책 소개 및 인상 깊은 구절</h2>
+        <p>
+            이 책은 기이한 괴담이 떠돌고 있는 긴키 지방의 어느 장소를 중심으로 한 페이크 르포르타주 형식의 소설입니다.<br>
+            평소에 공포 테마를 좋아하여 읽게 되었는데, 정말 시간 가는 줄 모르고 읽었습니다.
+        </p>
+        
+        <p>
+            이 책에서 가장 기억에 남는 문구는 다음과 같습니다.<br><br>
+            <mark>"정보가 있으신 분은 연락 바랍니다"</mark><br><br>
+            이 부분을 읽고 <em>사건의 시작이</em> 말 한마디에서 시작될 수 있다는 것을 알았습니다. 이 책을 아직 읽어보지 않으셨다면 <u>반드시 한 번쯤 읽어보시기를</u> <strong>추천</strong>합니다!
+        </p>
+
+        <hr>
+
+        <h2>📑 목차</h2>
+        <ol>
+            <li>제1장: 조사록</li>
+            <li>제2장: 일기</li>
+            <li class="highlight-text">제3장: 인터뷰</li>
+        </ol>
+
+        <hr>
+
+        <h3>🛒 책 구매하러 가기</h3>
+        <p>
+            자세한 도서 정보가 궁금하시다면 아래 링크를 클릭해 주세요!<br>
+            <a href="https://product.kyobobook.co.kr/detail/S000216172302/" target="_blank">온라인 서점으로 이동하여 자세히 보기 (클릭)</a>
+        </p>
+
+    </div>
+
+</body>
+</html>
